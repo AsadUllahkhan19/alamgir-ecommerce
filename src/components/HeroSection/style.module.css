@@ -1,0 +1,94 @@
+.heroSection {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../Assets/image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.heroBox {
+    text-align: center;
+    padding: 13px;
+    font-family: sans-serif;
+}
+
+.heroHeading{
+    font-size: 45px;
+    font-weight: 400;
+    color: #fe8033;
+    font-family: sans-serif;
+}
+
+.btn {
+    width: 130px;
+    height: 35px;
+    font-size: 18px;
+    border-radius: 35px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    -webkit-transition: background-color .3s ease;
+    transition: background-color .3s ease;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    border: 1px solid #fe8033;
+  }
+
+  .btn:active,.btn:hover {
+      background:#fe8033 ;
+      -webkit-transition: background-color .3s ease;
+    transition: background-color .3s ease;
+}
+
+.btnSignUp {
+    padding: 4px 10px;
+    font-size: 22px;
+    border-radius: 25px;
+    background-color: #fe8033;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    -webkit-transition: background-color .3s ease;
+    transition: background-color .3s ease;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.btnSignUp:active,.btnSignUp:hover {
+    background:transparent ;
+    -webkit-transition: background-color .3s ease;
+  transition: background-color .3s ease;
+  border: 1px solid #fe8033;
+}
+
+
+.btnBox {
+    max-width: 300px;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (min-width: 700px) {
+    .heroHeading {
+        font-size: 60px;
+        font-weight: 400;;
+    }
+
+    .btn,.btnSignUp {
+        font-size: 22px;
+        padding: 10px;
+        font-weight: 600;
+    }
+  }

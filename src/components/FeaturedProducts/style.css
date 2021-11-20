@@ -1,0 +1,129 @@
+.boxScroll {
+    display: flex;
+    overflow-x: auto;
+}
+
+.card {
+    /* width: 30%; */
+    max-width: 700px;
+    border-radius: 15px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    margin: 31px 12px;
+    text-align: center;
+    /* padding: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* .card .card_img {
+    margin-top: -5vw;
+  } */
+  
+  .card .card_img img {
+    width: 300px;
+    background-color: yellow;
+    border-radius: 15px;
+  }
+  
+  .card .card_header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: #fff;
+    margin: 25px 0;
+  }
+  
+  .card .card_header h2 {
+    font-size: 22px;
+  }
+  
+ .card .card_header p {
+    font-size: 18px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.3);
+    margin: 16px 0;
+  }
+  
+  .card .card_header .price {
+    font-size: 18px;
+    color: #fe8033;
+  }
+  
+  .card .card_header .price span {
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+ .card:hover {
+    background-color: #2b3039;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+ .card:hover .btn {
+    background-color: #fe8033;
+    color: #fff;
+  }
+  
+  .btn {
+    width: 130px;
+    height: 35px;
+    font-size: 18px;
+    border-radius: 35px;
+    background-color: #2d343e;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    position: relative;
+    -webkit-transition: background-color .3s ease;
+    transition: background-color .3s ease;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .boxScroll::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  .boxScroll::-webkit-scrollbar-track {
+    background:  #555;
+  }
+
+  .boxScroll::-webkit-scrollbar-thumb {
+    background: #fe8033
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fe8033
+  }
+
+  .arrival {
+      margin: 0 30px;
+      font-family: sans-serif;
+      font-size: 31px;
+      color: rgba(255, 255, 255, 0.7);
+  }
+
+  .Container {
+      width: 100%;
+      padding: 20px;
+  }
+
+  @media screen and (min-width: 672px) {
+    .arrival{
+      font-size: 45px;
+    }
+  }

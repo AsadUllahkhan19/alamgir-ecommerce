@@ -1,0 +1,27 @@
+.container{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    position: relative;
+    color: aliceblue;
+}
+
+.heading{
+    margin-left:auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #2d343e;
+    font-size: 10.5vw;
+    z-index: -1;
+    position: fixed;
+}
+
+.charts {
+    border-spacing: 25px;
+    border-collapse: separate;
+}
+
+.body{
+    overflow-x:auto;
+}

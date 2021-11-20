@@ -1,0 +1,134 @@
+.toolbar {
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+    width: 100%;
+    background:#272b34;;
+    height: 56px;
+  }
+  
+  .toolbar__navigation {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+  }
+  
+  .toolbar__logo {
+    margin-left: 1rem;
+  }
+  
+  .toolbar__logo a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: "Varela Round";
+  }
+  
+  .spacer {
+    flex: 1;
+  }
+  
+  .toolbar_navigation_items ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .toolbar_navigation_items li {
+    padding: 0 0.5rem;
+  }
+  
+  .toolbar_navigation_items a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .toolbar_navigation_items a:hover,
+  .toolbar_navigation_items a:active {
+    color: #fa923f;
+  }
+
+  .Search {
+    fill: rgba(255, 255, 255, 0.7);
+    height: 20px;
+    cursor: pointer;
+  }
+
+  .SearchBar {
+    width: 80vw;
+    height: 100%;
+    border-color:rgba(255, 255, 255, 0.7) ;
+    font-size: 14px;
+    padding: 4px 0px;
+    box-sizing: content-box;
+    border-radius: 25px;
+  }
+
+  .SearchBar:focus{
+    outline: none;
+  }
+
+  .SearchBtn {
+    width: 15vw;
+    height: 100%;
+    font-size: 14px;
+    padding: 4px 4px;
+    box-sizing: content-box;
+    border-radius: 35px;
+    background-color: #fe8033;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+    -webkit-transition: background-color .3s ease;
+    transition: background-color .3s ease;
+    overflow: hidden;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+  }
+
+  .SearchBox {
+    height: 20px;
+    margin-top: 0;
+    cursor: pointer;
+  }
+
+  .Cart {
+    fill: rgba(255, 255, 255, 0.7);
+    height: 20px;
+    cursor: pointer;
+  }
+
+  @media screen and (min-width: 672px) {
+    .toolbar__logo a {
+      font-size: 32px;
+    }
+
+    .Search {
+      height: 30px;
+    }
+
+    .Cart {
+      height: 30px;
+      margin: 0 12px;
+    }
+  }
+  
+  /* @media (max-width: 768px) {
+    .toolbar_navigation-items {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .toolbar__toggle_button {
+      display: none;
+    } 
+  
+     .toolbar__logo {
+      margin-left: 0;
+    }
+  } */

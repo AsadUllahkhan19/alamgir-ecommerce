@@ -1,0 +1,105 @@
+:root {
+    --text-size :17px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Navbar {
+    background-color: aqua;
+    /* z-index: 3; */
+}
+
+.main {
+    max-width: 1140px;
+    display: flex;
+    margin: 0px auto;
+    padding: 8px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: var(--text-size);
+}
+
+.leftBar{
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.rightBar {
+    display: flex;
+    align-items: center;
+    /* flex-direction: row-reverse; */
+    /* width: 200px; */
+    /* margin-right: 12px; */
+    /* background-color: aliceblue; */
+}
+
+.rightBar:last-child {
+    margin-left: 12px;
+    margin-right:12px;
+}
+
+.search {
+    margin-right: 20px;
+    /* height: 18px; */
+    /* fill: blue;
+    margin-right: 0%; */
+}
+
+.cart {
+    margin-right: 20px;
+}
+
+.searchBar {
+    display: none;
+}
+
+.searchBarToggle {
+    display: block;
+    width: 80vw;
+    height: 90%;
+}
+
+.searchBarToggle::-webkit-input-placeholder{
+    color: #0a3466;
+}
+
+.searchGroup {
+    display: flex;
+    width: 100vw;
+    background-color: pink;
+    height: 25px;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.searchButton {
+    width: 20vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color:#0a3466;
+    font-family: sans-serif;
+}
+/* @media screen and (max-width: 480px) {
+    .main {
+        margin: 0 0;
+        font-size: 10px;
+    }
+
+    .leftBar{
+        margin-left: 0px;
+    }
+    .rightBar {
+        display: flex;
+        justify-content: space-between;
+        margin-right: px;
+    }
+    
+  } 
+   */

@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    /* position: relative; */
+    /* background-color: chartreuse; */
+}
+
+.curtain {
+    width: 100%;
+    min-height: 100%;
+    position: fixed;
+    top: 0;
+    background-color: aqua;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}

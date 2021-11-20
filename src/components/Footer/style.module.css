@@ -1,0 +1,34 @@
+.footer {
+    background-color: #333;
+    background-color: #fe8033;
+    padding: 2rem 2rem;
+    /* display: flex; */
+    /* flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+}
+
+.wrapper{
+  display: flex;
+  justify-content: space-around;
+  max-width: 600px;
+  margin: 0px auto;
+}
+
+.insta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px auto;
+}
+
+.admin {
+  align-self:flex-end ;
+}

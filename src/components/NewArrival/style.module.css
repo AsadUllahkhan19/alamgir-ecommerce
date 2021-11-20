@@ -1,0 +1,99 @@
+.heroSection {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image:linear-gradient(to right bottom, #ffb900, #ff7730), url("../../Assets/image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+}
+
+.heroBox {
+  text-align: center;
+  padding: 17px;
+  font-family: sans-serif;
+}
+
+.heroHeading{
+  font-size: 45px;
+  font-weight: 400;
+  color: white;
+  font-family: sans-serif;
+}
+
+.btn {
+  width: 130px;
+  height: 35px;
+  font-size: 18px;
+  border-radius: 35px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: background-color .3s ease;
+  transition: background-color .3s ease;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  border: 1px solid #fe8033;
+}
+
+.btn:active,.btn:hover {
+    background:#fe8033 ;
+    -webkit-transition: background-color .3s ease;
+  transition: background-color .3s ease;
+}
+
+.btnSignUp {
+  width: 130px;
+  height: 35px;
+  font-size: 18px;
+  border-radius: 35px;
+  background-color: #fe8033;
+  color: white;
+  font-weight: 400;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: background-color .3s ease;
+  transition: background-color .3s ease;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+.btnSignUp:active,.btnSignUp:hover {
+  background:transparent ;
+  -webkit-transition: background-color .3s ease;
+transition: background-color .3s ease;
+border: 1px solid #fe8033;
+}
+
+
+.btnBox {
+  max-width: 300px;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 17px;
+  color: whitesmoke;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 700px) {
+  .heroHeading {
+      font-size: 5rem;
+      font-weight: 400;
+  }
+
+  .btnBox {
+      font-size: 2rem;
+      padding: 10px;
+      font-weight: 600;
+  }
+}
